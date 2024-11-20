@@ -1,13 +1,17 @@
 <script setup>
 import MainButton from './components/MainButton.vue'
-const name = 'isroq'
+import OptionsComponents from './components/OptionsComponents.vue'
+import CompositionComponents from './components/CompositionComponents.vue';
+
 </script>
 
 <template>
-  <h1>{{name}}</h1>
+  
 <MainButton/>
 <MainButton/>  
 <MainButton/>
+<p><OptionsComponents/></p>
+<p><CompositionComponents/></p>
 
 </template>
 
